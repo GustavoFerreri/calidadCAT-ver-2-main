@@ -26,7 +26,7 @@ header h1{
 /* Barra navegacion */
 nav{
     height: 3vh;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 main > div {
     font-size: 2em;
@@ -35,8 +35,8 @@ main > div {
     margin-top: 15%;
 }
 .textTitle {
-    color: rgba(103, 173, 223, 0.438);
-    font-size: 1.5em;
+    color: rgba(114, 138, 155, 0.438);
+    font-size: 1.2em;
     font-family: "Rajdhani", sans-serif;
 
 }
