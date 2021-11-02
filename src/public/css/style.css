@@ -10,7 +10,7 @@ html {
 }
 /* Cabecera */
 header {
-    height: 9vh;
+    height: 6vh;
     color: #005B9A;
     margin-bottom: 0;
 }
@@ -25,7 +25,7 @@ header h1{
 }
 /* Barra navegacion */
 nav{
-    height: 3vh;
+    height: 2vh;
     font-size: 1.3em;
 }
 main > div {
