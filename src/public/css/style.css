@@ -10,7 +10,7 @@ html {
 }
 /* Cabecera */
 header {
-    height: 6vh;
+    height: 7vh;
     color: #005B9A;
     margin-bottom: 0;
 }
@@ -41,8 +41,9 @@ main > div {
 
 }
 .textSubTitle{
+    color: rgba(114, 138, 155, 0.438);
     font-size: 1.5em;
-    color: rgba(90, 117, 136, 0.350);
+    font-family: "Rajdhani", sans-serif;
 }
 .superponer{
     z-index: 999;
@@ -64,7 +65,7 @@ main > div {
     color: rgba(127, 161, 185, 0.2);
 }
 footer {
-    height: 4vh;
+    height: 3vh;
     font-size: 0.6em;
     color: #005B9A;
 }
