@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <%- include ('partials/head.html')%>
+</head>
+
+<body>
+    <!-- Header -->
+    <%- include ('partials/header.html')%>
+    <!-- NavBar -->
+    <%- include ('partials/navbar.html')%>
+    <main class="container-fluid">
+        <span class="text-monospace font-weight-bolder textTitle p-5">Auditoria Calidad</span>
+        <div class="container space back">
+            <div class="form-group">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Fecha</span>
+                    </div>
+                    <input type="text" name="fecha" class="form-control text-center"
+                        placeholder="Que dia se realizo?" />
+                    <input type="text" name="hora" class="form-control text-center" placeholder="A que hora?" />
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Lugar</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected class="selectPlace">Seleccione donde se realizo</option>
+                        <option value="1">Recepcion</option>
+                        <option value="2">Expedicion nueva</option>
+                        <option value="3">Expedicion Alero</option>
+                    </select>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text ">Chofer</span>
+                    </div>
+                    <input type="text" name="nombre" class="form-control text-center"
+                        placeholder="Ingrese el nombre aquí" />
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text ">Procedimiento</span>
+                    </div>
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <input type="checkbox" name="cunas" class="form-check-input ml-1" />
+                            <label for="cunas" class="form-check-label ml-5">Cuñas</label>
+                        </div>
+                        <div class="input-group-text">
+                            <input type="checkbox" name="zonaIndicada" class="form-check-input ml-1" />
+                            <label for="zonaIndicada" class="form-check-label ml-5">Unidad en zona indicada</label>
+                        </div>
+                        <div class="input-group-text">
+                            <input type="checkbox" name="zonaSegura" class="form-check-input ml-1" />
+                            <label for="zonaSegura" class="form-check-label ml-5">Chofer en zona segura</label>
+                        </div>
+                        <div class="input-group-text">
+                            <input type="checkbox" name="llaveCaja" class="form-check-input ml-1" />
+                            <label for="llaveCaja" class="form-check-label ml-5">Llaves en caja</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text ">Equipo</span>
+                    </div>
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <input type="checkbox" name="mec" class="form-check-input ml-1" />
+                            <label for="mec" class="form-check-label ml-5">Mecanismo Tensor</label>
+                        </div>
+                        <div class="input-group-text">
+                            <input type="checkbox" name="lonaCondiciones" class="form-check-input ml-1" />
+                            <label for="lonaCondiciones" class="form-check-label ml-5">Lona en condiciones</label>
+                        </div>
+                        <div class="input-group-text">
+                            <input type="checkbox" name="zunchos" class="form-check-input ml-1" />
+                            <label for="zunchos" class="form-check-label ml-5">Zunchos</label>
+                        </div>
+                        <div class="input-group-text">
+                            <input type="checkbox" name="lonaAjustada" class="form-check-input ml-1" />
+                            <label for="lonaAjustada" class="form-check-label ml-5">Lona Ajustada</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text ">Chofer</span>
+                    </div>
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <input type="checkbox" name="barbijo" class="form-check-input ml-1" />
+                            <label for="barbijo" class="form-check-label ml-5">Barbijo</label>
+                        </div>
+                        <div class="input-group-text">
+                            <input type="checkbox" name="guantes" class="form-check-input ml-1" />
+                            <label for="guantes" class="form-check-label ml-5">Guantes</label>
+                        </div>
+                        <div class="input-group-text">
+                            <input type="checkbox" name="chaleco" class="form-check-input ml-1" />
+                            <label for="chaleco" class="form-check-label ml-5">Chaleco</label>
+                        </div>
+                        <div class="input-group-text">
+                            <input type="checkbox" name="ropa" class="form-check-input ml-1" />
+                            <label for="ropa" class="form-check-label ml-5">Ropa</label>
+                        </div>
+                        <div class="input-group-text">
+                            <input type="checkbox" name="zapato" class="form-check-input ml-1" />
+                            <label for="zapato" class="form-check-label ml-5">Zapato</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Comentarios">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">Agregar</button>
+                        <button class="btn btn-danger" type="button">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <%- include ('partials/footer.html')%>
+</body>
+
+</html>

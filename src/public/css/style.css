@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Rajdhani", sans-serif;
+    background: #fff;
+}
+/* Cabecera */
+header {
+    height: 6vh;
+    color: #005B9A;
+    margin-bottom: 0;
+}
+header img {
+    width: 15em;
+    height: 9em;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+header h1{
+    font-size: 2em;
+}
+/* Barra navegacion */
+nav{
+    height: 3vh;
+}
+nav ul li{
+    font-size: 1.5em;
+}
+main > div {
+    font-size: 2em;
+}
+.textMain{
+    margin-top: 15%;
+}
+.textTitle {
+    color: rgba(103, 173, 223, 0.438);
+    font-size: 1.5em;
+    font-family: "Rajdhani", sans-serif;
+
+}
+.textSubTitle{
+    font-size: 1.5em;
+    color: rgba(90, 117, 136, 0.350);
+}
+.superponer{
+    z-index: 999;
+}
+.back{
+    z-index: 1;
+}
+.space{
+    margin-top: 2%;
+}
+.selectPlace{
+    font-size: 1.2 em;
+    font-style: italic;
+    color: rgba(127, 161, 185, 0.2);
+}
+::placeholder{
+    font-size: 1.2em;
+    font-style: italic;
+    color: rgba(127, 161, 185, 0.2);
+}
+footer {
+    height: 4vh;
+    font-size: 0.6em;
+    color: #005B9A;
+}
+.bg-color {
+    background-color: white;
+    opacity: 0.9;
+}
+.bg-test{
+    background-color: blue;
+}
