@@ -56,7 +56,7 @@ main > div {
     color: rgba(127, 161, 185, 0.2);
 }
 .back{
-    z-index: 1;
+    z-index: -1;
 }
 .top{
     z-index: 999;
