@@ -36,12 +36,7 @@ main > div {
 .textMain{
     margin-top: 15%;
 }
-.textTitle {
-    color: rgba(114, 138, 155, 0.438);
-    font-size: 1.2em;
-    font-family: "Rajdhani", sans-serif;
 
-}
 .textSubTitle{
     color: rgba(114, 138, 155, 0.438);
     font-size: 1.5em;
@@ -60,16 +55,11 @@ main > div {
     font-style: italic;
     color: rgba(127, 161, 185, 0.2);
 }
-#footer {
-    position: fixed;
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
-    width: 100%;
-    /* Height of the footer*/ 
-    height: 3vh;
+footer{
+    color: rgba(114, 138, 155, 0.438);
+    font-size: 1.2em;
     background:white;
-    font-size: 1.1em;
-    color: #005B9A;
+    font-family: "Rajdhani", sans-serif;
 }
 .bg-color {
     background-color: white;
