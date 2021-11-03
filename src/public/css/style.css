@@ -10,7 +10,6 @@ html {
 }
 /* Cabecera */
 header {
-    /* height: 6vh; */
     color: #005B9A;
     margin-bottom: 0;
 }
@@ -31,6 +30,8 @@ main > div {
 }
 .navbar-brand{
     font-size: 2em;
+    margin-top: 1%;
+    color: #005B9A;
 }
 .textMain{
     margin-top: 15%;
@@ -65,8 +66,14 @@ main > div {
     font-style: italic;
     color: rgba(127, 161, 185, 0.2);
 }
-footer {
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
     height: 3vh;
+    background:white;
     font-size: 1.1em;
     color: #005B9A;
 }
