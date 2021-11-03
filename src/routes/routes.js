@@ -21,43 +21,43 @@ router.get('/auditQuality', (req, res) => {
 // Auditoria Media
 router.get('/auditHalf', (req, res) => {
     res.render('auditHalf.html', {
-        title: 'Contacto',
-        name: 'Contacto'
+        title: 'Auditoria Medio',
+        name: 'Auditoria Medio'
     });
 });
 // aboutUs
 router.get('/aboutUs', (req, res) => {
     res.render('aboutUs.html', {
-        title: 'Contacto',
-        name: 'Contacto'
+        title: 'Quienes somos',
+        name: 'Quienes somos'
     });
 });
 // indicadores
 router.get('/indicadores', (req, res) => {
     res.render('indicadores.html', {
-        title: 'Contacto',
-        name: 'Contacto'
+        title: 'Indicadores',
+        name: 'Indicadores'
     });
 });
 // Buscar choferes
 router.get('/seekDriver', (req, res) => {
     res.render('seekDriver.html', {
-        title: 'Contacto',
-        name: 'Contacto'
+        title: 'Buscar Chofer',
+        name: 'Buscar Chofer'
     });
 });
 // Buscar Fleteros
 router.get('/seekOwner', (req, res) => {
     res.render('seekOwner.html', {
-        title: 'Contacto',
-        name: 'Contacto'
+        title: 'Buscar Fletero',
+        name: 'Buscar Fletero'
     });
 });
 // Buscar Unidades
 router.get('/seekUnit', (req, res) => {
     res.render('seekUnit.html', {
-        title: 'Contacto',
-        name: 'Contacto'
+        title: 'Buscar Unidad',
+        name: 'Buscar Unidad'
     });
 });
 
