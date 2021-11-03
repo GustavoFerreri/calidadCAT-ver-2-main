@@ -10,13 +10,13 @@ html {
 }
 /* Cabecera */
 header {
-    height: 6vh;
+    /* height: 6vh; */
     color: #005B9A;
     margin-bottom: 0;
 }
 header img {
-    width: 15em;
-    height: 9em;
+    /* width: 15em;
+    height: 9em; */
     margin-top: 1%;
     margin-left: 10%;
 }
@@ -25,7 +25,6 @@ header h1{
 }
 /* Barra navegacion */
 nav{
-    height: 3vh;
     font-size: 1.3em;
 }
 main > div {

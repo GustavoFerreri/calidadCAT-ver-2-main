@@ -15,7 +15,7 @@ _Para disponer del proyecto en un ambito local sera necesario tener instalado, m
 * [NodeJS]
 * [Bootstrap]
 
-## Autores ✒️
+## Autores
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 

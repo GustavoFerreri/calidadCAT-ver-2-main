@@ -1,87 +1,53 @@
-<!-- Barra de navegacion -->
-<!-- 
-<nav class="navbar navbar-expand-lg navbar-light bg-color container-fluid">
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active p-3">
-                <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown p-3">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-expanded="false">
-                    Auditorias
-                </a>
-                <div class="dropdown-menu superponer" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/auditQuality">Calidad</a>
-                    <a class="dropdown-item" href="/auditHalf">Medio</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown p-3">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-expanded="false">
-                    Busqueda
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item " href="/seekDriver">Choferes</a>
-                    <a class="dropdown-item " href="/seekUnit">Unidades</a>
-                    <a class="dropdown-item " href="/seekOwner">Fleteros</a>
-                </div>
-            </li>
-            <li class="nav-item p-3">
-                <a href="/indicadores" class="nav-link">Indicadores</a>
-            </li>
-            <li class="nav-item p-3">
-                <a href="/aboutUs" class="nav-link">Quienes somos</a>
-            </li>
-        </ul>
-    </div>
-</nav>
--->
-<nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Auditorias
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="/auditQuality">Calidad</a></li>
-                        <li><a class="dropdown-item" href="/auditHalf">Medio</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Busqueda
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="/seekDriver">Chofer</a></li>
-                        <li><a class="dropdown-item" href="/seekOwner">Fletero</a></li>
-                        <li><a class="dropdown-item" href="/seekUnit">Unidad</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/indicadores">Indicadores</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/aboutUs">Quienes Somos</a>
-                </li>
-            </ul>
+<!-- Cabecera web -->
+<header class="container-fluid bg-color text-center">
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <!-- Imagen -->
+                <img src="../img/descarga.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                <!-- Titulo -->
+                <h1 class="display-4 font-weight-bold">Departamento LC</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Auditorias
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/auditQuality">Calidad</a></li>
+                            <li><a class="dropdown-item" href="/auditHalf">Medio</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Busqueda
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="/seekDriver">Chofer</a></li>
+                            <li><a class="dropdown-item" href="/seekOwner">Fletero</a></li>
+                            <li><a class="dropdown-item" href="/seekUnit">Unidad</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/indicadores">Indicadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/aboutUs">Quienes Somos</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</header>
