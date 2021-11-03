@@ -24,7 +24,6 @@ header h1{
 /* Barra navegacion */
 nav{
     font-size: 1.3em;
-    z-index: 999 !important;
 }
 main > div {
     font-size: 2em;
@@ -58,6 +57,9 @@ main > div {
 }
 .back{
     z-index: 1;
+}
+.top{
+    z-index: 999;
 }
 footer{
     color: rgba(114, 138, 155, 0.438);
