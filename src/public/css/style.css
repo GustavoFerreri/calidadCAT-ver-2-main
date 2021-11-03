@@ -10,8 +10,8 @@ html {
 }
 /* Cabecera */
 header {
+    background-color: black;
     color: #005B9A;
-    margin-bottom: 0;
 }
 header img {
     width: 2em;
@@ -54,6 +54,9 @@ main > div {
     font-size: 1.2em;
     font-style: italic;
     color: rgba(127, 161, 185, 0.2);
+}
+.back{
+    z-index: 1;
 }
 footer{
     color: rgba(114, 138, 155, 0.438);
