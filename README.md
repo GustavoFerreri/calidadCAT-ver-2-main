@@ -7,30 +7,6 @@ _Partiendo desde calidad, brindando la posibilidad de enlazar con otras aplicaci
 
 _Para disponer del proyecto en un ambito local sera necesario tener instalado, mongoDB, y nodejs._
 
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
 ## Construido con 🛠️
 
 * [Mongodb]
@@ -38,11 +14,6 @@ _Agrega notas adicionales sobre como hacer deploy_
 * [ReactJS]
 * [NodeJS]
 * [Bootstrap]
-
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
