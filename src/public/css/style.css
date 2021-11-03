@@ -24,6 +24,7 @@ header h1{
 /* Barra navegacion */
 nav{
     font-size: 1.3em;
+    z-index: 999 !important;
 }
 main > div {
     font-size: 2em;
